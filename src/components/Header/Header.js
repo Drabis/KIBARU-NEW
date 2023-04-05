@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <h1>News App</h1>
+        <h1>KIBARU News</h1>
       </div>
       <nav>
         <ul>

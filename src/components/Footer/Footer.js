@@ -4,7 +4,7 @@ import "./footer.css"
 function Footer() {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} News App. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} KIBARU News App. All rights reserved.</p>
       <nav>
         <ul>
           <li>
