@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./main.css";
 import axios from "axios";
 import NewsItems from "../NewsItems/NewsItems";
+import Weather from "../weather/Weather";
+
 
 function MainPage() {
   const [articles, setArticles] = useState();
@@ -19,6 +21,7 @@ function MainPage() {
 
   return (
     <div>
+      <Weather/>
       {articles &&
         articles.map((article) => {
           return (
