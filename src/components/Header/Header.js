@@ -1,5 +1,7 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <header>
@@ -9,10 +11,10 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a src="entertainment">Entertainment </a>
           </li>
           <li>
-            <a href="#">Politics</a>
+            <a href="">Politics</a>
           </li>
           <li>
             <a href="#">Business</a>
@@ -21,7 +23,7 @@ function Header() {
             <a href="#">Sports</a>
           </li>
           <li>
-            <a href="#">Entertainment</a>
+            <a href="#">Weather</a>
           </li>
         </ul>
       </nav>
